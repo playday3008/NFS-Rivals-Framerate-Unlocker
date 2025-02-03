@@ -54,7 +54,7 @@ void ClientAnimationComponent::onPostPhysicsUpdateSync(const UpdateInfo& updateI
     const float airbrakeDownSpeedMph = data.getAirbrakeDownSpeedMph();
 
     const float brakeModifier = data.getBrakeScalar();
-    const float brakeModified = (brake * brakeModifier) - 1.0;
+    const float brakeModified = (brake * brakeModifier) - 1.f;
     const float finalBrake = clamp(brakeModified, 0.f, 1.f);
 
     const float highSpeedMovementSpeedRange = wingUpSpeedMph - wingDownSpeedMph;

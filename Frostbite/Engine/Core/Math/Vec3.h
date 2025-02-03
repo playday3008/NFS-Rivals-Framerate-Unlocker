@@ -15,7 +15,7 @@ struct Vec3
 		struct
 		{
 			float x, y, z, pad;
-		};
+		} axis;
 		float data[4];
 	};
 

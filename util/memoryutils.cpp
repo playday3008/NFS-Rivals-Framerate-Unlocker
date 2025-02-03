@@ -1,3 +1,5 @@
+#define NOMINMAX
+
 #include "memoryutils.h"
 #include <windows.h>
 

@@ -20,7 +20,7 @@ void WheelNFS::ApplyPatches()
         WheelNFS* thisPtr = reinterpret_cast<WheelNFS*>(ctx.rbx);
         Vec3& tirePatchLocalPos = *reinterpret_cast<Vec3*>(&ctx.xmm1.f32[0]);
         Vec3 contactPos;
-        computeContactPostion(thisPtr, contactPos, tirePatchLocalPos.y);
+        computeContactPostion(thisPtr, contactPos, tirePatchLocalPos.axis.y);
         // put our new contact pos back into xmm1
         tirePatchLocalPos = contactPos;
     });

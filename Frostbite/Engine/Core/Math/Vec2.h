@@ -13,51 +13,47 @@ struct Vec2
 		struct
 		{
 			float x, y;
-		};
+		} axis;
 		float data[2];
 	};
 
 	// Initializes this Vec2 to zero
 	Vec2()
-	: x(0.f)
-	, y(0.f)
+	: axis{0.f, 0.f}
 	{
 	}
 
 	// Initializes all members of this vector with the value of in
 	Vec2(float in)
-		: x(in)
-		, y(in)
+		: axis{in, in}
 	{
 	}
 
 	// Initializes xy
 	Vec2(float inX, float inY)
-		: x(inX)
-		, y(inY)
+		: axis{inX, inY}
 	{
 	}
 
 	// Initializes vector with the values of another Vec2
 	Vec2(Vec2Ref v)
-		: x(v.x)
-		, y(v.y)
+		: axis(v.axis)
 	{
 	}
 
 	Vec2 operator + (Vec2Ref b)
 	{
 		Vec2 v;
-		v.x = x + b.x;
-		v.y = y + b.y;
+		v.axis.x = axis.x + b.axis.x;
+		v.axis.y = axis.y + b.axis.y;
 		return v;
 	}
 
 	Vec2 operator * (float b)
 	{
 		Vec2 v;
-		v.x = x * b;
-		v.y = y * b;
+		v.axis.x = axis.x * b;
+		v.axis.y = axis.y * b;
 		return v;
 	}
 

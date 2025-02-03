@@ -89,7 +89,7 @@ void ApplyMiscPatches()
     executionContextMidHook = safetyhook::create_mid(reinterpret_cast<void*>(0x14016860D),
         [](SafetyHookContext& ctx)
     {
-        int argcOld = ctx.rdx;
+        uintptr_t argcOld = ctx.rdx;
         char** argv = reinterpret_cast<char**>(ctx.r8);
         std::ifstream commands("commands.txt");
         std::string commandLine;
@@ -111,7 +111,7 @@ void ApplyMiscPatches()
                 if (argvNew)
                 {
                     // place old arg pointers into the beginning of the list
-                    for (int i = 0; i < argcOld; ++i)
+                    for (uintptr_t i = 0; i < argcOld; ++i)
                     {
                         argvNew[i] = argv[i];
                     }

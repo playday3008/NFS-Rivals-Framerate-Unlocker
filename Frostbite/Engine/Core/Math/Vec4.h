@@ -26,7 +26,7 @@ struct Vec4
 		struct
 		{
 			float x, y, z, w;
-		};
+		} axis;
 		float data[4];
 	};
 

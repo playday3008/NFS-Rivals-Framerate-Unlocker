@@ -25,10 +25,10 @@ struct Quat
 
 	Quat(float x, float y, float z, float w)
 	{
-		vec.x = x;
-		vec.y = y;
-		vec.z = z;
-		vec.w = w;
+		vec.axis.x = x;
+		vec.axis.y = y;
+		vec.axis.z = z;
+		vec.axis.w = w;
 	}
 
 	Quat(Vec3Ref axis, float radians);
