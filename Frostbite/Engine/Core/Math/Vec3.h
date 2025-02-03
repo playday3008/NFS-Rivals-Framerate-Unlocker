@@ -51,7 +51,7 @@ struct Vec3
 
 	float& operator[](int i)
 	{
-		return simdValue.m128_f32[i];
+		return data[i];
 	}
 
 	Vec3  operator +  (const Vec3& b) { return simdValue + b.simdValue; }
@@ -77,6 +77,12 @@ struct Vec3
 	Vec3  operator /  (const Vec3& b) const { return simdValue / b.simdValue; }
 
 	Vec3& operator /= (const Vec3& b) { simdValue = simdValue / b.simdValue; return *this; }
+
+#if !defined(_MSC_VER)
+	Vec3  operator == (const Vec3& b) { return simdValue == b.simdValue; }
+
+	Vec3  operator == (const Vec3& b) const { return simdValue == b.simdValue; }
+#endif
 
 	operator __m128() { return simdValue; }
 

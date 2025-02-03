@@ -110,13 +110,13 @@ void TransformMultiplierEntity::onCreate(const EntityCreationInfo& info)
 	// This allows for an external value to be passed in and still override this, while  
 	// working around Frosty's limitations.
 	const LinearTransform& in1 = m_data->getIn1();
-	u32 transZ = in1.trans.simdValue.m128_u32[2];
+	float transZ = in1.trans.axis.z;
 	// This is genuinely garbage but only specific instances should be opted in for updating 
 	// in order to avoid adding unnecessary overhead every frame from this VERY common entity.
 	// Unfortunately, this is the only way I could come up with without going through the 
 	// massive amount of work to implement a custom Frostbite RTTI class just for this scenario, 
 	// so instead we're just gonna check for a magic value and pray.
-	if (transZ == 0xBADBADAF)
+	if (transZ == 0x5BADAFp-10)
 	{
 		// m_interpolatedOut won't be initialized without passing in a value
 		LinearTransform ident(LinearTransform::IdentityType::Identity);
@@ -166,9 +166,9 @@ void TransformMultiplierEntity::writeOut()
 	const LinearTransform& in2 = m_in2.get();
 	LinearTransform mul = in1 * in2;
 	// world space
-	if (in1.trans.simdValue.m128_u32[3] == 0xAFAFAFAF || in2.trans.simdValue.m128_u32[3] == 0xAFAFAFAF)
+	if (in1.trans.data[3] == 0x2FAFAFp-32 || in2.trans.data[3] == 0x2FAFAFp-32)
 	{
-		mul.trans.simdValue.m128_u32[3] = 0xAFAFAFAF;
+		mul.trans.data[3] = 0x2FAFAFp-32;
 	}
 	m_out = mul;
 

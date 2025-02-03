@@ -7,6 +7,7 @@ namespace fb
 
 #pragma region __m128 Operator Overloads
 
+#if defined(_MSC_VER)
 __forceinline Vec  operator +   (const Vec& l, const Vec& r) { return _mm_add_ps(l, r); }
 __forceinline Vec  operator -   (const Vec& l, const Vec& r) { return _mm_sub_ps(l, r); }
 __forceinline Vec  operator *   (const Vec& l, const Vec& r) { return _mm_mul_ps(l, r); }
@@ -39,6 +40,7 @@ __forceinline Vec  operator >   (const Vec& l, const float r) { return _mm_cmpgt
 __forceinline Vec  operator <=  (const Vec& l, const float r) { return _mm_cmple_ps(l, _mm_set1_ps(r)); }
 __forceinline Vec  operator >=  (const Vec& l, const float r) { return _mm_cmpge_ps(l, _mm_set1_ps(r)); }
 __forceinline Vec  operator ==  (const Vec& l, const float r) { return _mm_cmpeq_ps(l, _mm_set1_ps(r)); }
+#endif
 
 #pragma endregion __m128 Operator Overloads
 
