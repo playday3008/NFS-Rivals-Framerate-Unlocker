@@ -1,6 +1,6 @@
 #pragma once
-#include "Core/Math/Vec3.h"
-#include "Core/Math/Vec2.h"
+#include "Engine/Core/Math/Vec3.h"
+#include "Engine/Core/Math/Vec2.h"
 
 
 namespace fb

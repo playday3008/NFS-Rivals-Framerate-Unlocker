@@ -1,7 +1,7 @@
 #pragma once
-#include "Core/Resource/BaseTypesDefs.h"
-#include "Core/Math/LinearTransform.h"
-#include "Core/Math/Vec2.h"
+#include "Engine/Core/Resource/BaseTypesDefs.h"
+#include "Engine/Core/Math/LinearTransform.h"
+#include "Engine/Core/Math/Vec2.h"
 #include "CameraEffects/FovEffect.h"
 
 

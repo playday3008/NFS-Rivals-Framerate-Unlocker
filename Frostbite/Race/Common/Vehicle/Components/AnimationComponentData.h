@@ -8,7 +8,7 @@ namespace fb
 class AnimationComponentData : public GameComponentData
 {
 public:
-	float m_brakeScalar;
+	float m_brakeScalar alignas(16);
 	float m_wingUpSpeedMph;
 	float m_wingDownSpeedMph;
 	float m_airbrakeUpSpeedMph;

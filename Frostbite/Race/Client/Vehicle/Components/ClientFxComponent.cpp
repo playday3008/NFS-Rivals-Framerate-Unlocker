@@ -1,6 +1,6 @@
 #include <Race/Client/Vehicle/Components/ClientFxComponent.h>
 
-#include <Core/Math/Vec3.h>
+#include <Engine/Core/Math/Vec3.h>
 #include <Race/Client/Vehicle/Components/ClientRaceWheelComponentSimulation.h>
 
 #include "safetyhook.hpp"

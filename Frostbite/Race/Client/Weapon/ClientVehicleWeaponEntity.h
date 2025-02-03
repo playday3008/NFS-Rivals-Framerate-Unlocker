@@ -2,9 +2,9 @@
 #include <Race/Common/Weapon/VehicleWeaponUpgradable.h>
 #include <Race/Common/Weapon/VehicleWeaponType.h>
 
-#include <Core/Reflection/String.h>
-#include <Core/Math/LinearTransform.h>
-#include <Core/Pattern/WeakPtr.h>
+#include <Engine/Core/Reflection/String.h>
+#include <Engine/Core/Math/LinearTransform.h>
+#include <Engine/Core/Pattern/WeakPtr.h>
 #include <Extension/Rpc/RpcDeclaration.h>
 
 

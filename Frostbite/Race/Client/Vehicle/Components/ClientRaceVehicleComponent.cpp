@@ -61,14 +61,14 @@ private:
 	static void* s_vftable[6];
 };
 
-auto dtorConv = &ClientRaceVehicleComponentUpdater::dtor;
-auto preQueryUpdateConv = &ClientRaceVehicleComponentUpdater::preQueryUpdate;
-auto postQueryUpdateConv = &ClientRaceVehicleComponentUpdater::postQueryUpdate;
+auto clientRaceVehicleComponentUpdater_dtorConv = &ClientRaceVehicleComponentUpdater::dtor;
+auto clientRaceVehicleComponentUpdater_preQueryUpdateConv = &ClientRaceVehicleComponentUpdater::preQueryUpdate;
+auto clientRaceVehicleComponentUpdater_postQueryUpdateConv = &ClientRaceVehicleComponentUpdater::postQueryUpdate;
 void* ClientRaceVehicleComponentUpdater::s_vftable[6] =
 {
-	*(void**)&dtorConv,
+	*(void**)&clientRaceVehicleComponentUpdater_dtorConv,
 	(void*)0x1400A8390, // preQueryUpdate
-	*(void**)&postQueryUpdateConv,
+	*(void**)&clientRaceVehicleComponentUpdater_postQueryUpdateConv,
 	(void*)0x140169F90,
 	(void*)0x140813A80, // exitLevel
 	(void*)0x140169F90  // resetTicksTilNextUpdate

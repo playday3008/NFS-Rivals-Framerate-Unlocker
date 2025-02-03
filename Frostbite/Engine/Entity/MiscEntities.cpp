@@ -52,14 +52,14 @@ private:
 	static void* s_vftable[6];
 };
 
-auto dtorConv = &TransformMultiplierEntityUpdater::dtor;
-auto preQueryUpdateConv = &TransformMultiplierEntityUpdater::preQueryUpdate;
-auto postQueryUpdateConv = &TransformMultiplierEntityUpdater::postQueryUpdate;
+auto transformMultiplierEntityUpdater_dtorConv = &TransformMultiplierEntityUpdater::dtor;
+auto transformMultiplierEntityUpdater_preQueryUpdateConv = &TransformMultiplierEntityUpdater::preQueryUpdate;
+auto transformMultiplierEntityUpdater_postQueryUpdateConv = &TransformMultiplierEntityUpdater::postQueryUpdate;
 void* TransformMultiplierEntityUpdater::s_vftable[6] =
 {
-	*(void**)&dtorConv,
+	*(void**)&transformMultiplierEntityUpdater_dtorConv,
 	(void*)0x1400A8390, // preQueryUpdate
-	*(void**)&postQueryUpdateConv,
+	*(void**)&transformMultiplierEntityUpdater_postQueryUpdateConv,
 	(void*)0x140169F90,
 	(void*)0x140813A80, // exitLevel
 	(void*)0x140169F90  // resetTicksTilNextUpdate

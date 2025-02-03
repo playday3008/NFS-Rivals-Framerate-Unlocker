@@ -1,6 +1,6 @@
 #pragma once
 #include <Engine/Game/Common/Core/Entity/GameComponentEntity.h>
-#include <Core/Types.h>
+#include <Engine/Core/Types.h>
 
 
 namespace fb

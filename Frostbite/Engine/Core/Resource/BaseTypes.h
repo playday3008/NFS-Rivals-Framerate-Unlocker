@@ -13,7 +13,7 @@ class GameDataContainer : public DataContainer
 class DataBusPeer : public GameDataContainer
 {
 protected:
-	uint m_flags;
+	uint m_flags alignas(8);
 };
 
 class Asset : public DataContainer

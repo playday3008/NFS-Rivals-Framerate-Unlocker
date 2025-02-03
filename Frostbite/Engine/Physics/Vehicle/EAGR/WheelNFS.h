@@ -1,8 +1,8 @@
 #pragma once
 #include <Engine/Physics/Vehicle/EAGR/IRaceWheel.h>
 
-#include <Core/Math/LinearTransform.h>
-#include <Entity/Material/MaterialGridData.h>
+#include <Engine/Core/Math/LinearTransform.h>
+#include <Engine/Entity/Material/MaterialGridData.h>
 
 
 namespace fb
