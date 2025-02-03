@@ -11,7 +11,7 @@
 #include <Race/Client/Vehicle/Components/ClientRaceVehicleComponentSimulation.h>
 
 #include "../../../../../util/memoryutils.h"
-#include "MinHook.h"
+#include <MinHook.h>
 
 
 namespace
@@ -220,21 +220,21 @@ void ClientRaceVehicleComponent::ApplyPatches()
 	{
 		auto f = &ClientRaceVehicleComponent::ctor;
 		ClientRaceVehicleComponent::t_ctor target = reinterpret_cast<ClientRaceVehicleComponent::t_ctor>(0x1408184B0);
-		MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&ClientRaceVehicleComponent::o_ctor)); MH_EnableHook(target);
+		MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&ClientRaceVehicleComponent::o_ctor)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
 	}
 
 	// override fb::ClientRaceVehicleComponent::onPostPhysicsUpdateSync
 	{
 		auto f = &ClientRaceVehicleComponent::onPostPhysicsUpdateSync;
 		ClientRaceVehicleComponent::t_onPostPhysicsUpdateSync target = reinterpret_cast<ClientRaceVehicleComponent::t_onPostPhysicsUpdateSync>(0x140822400);
-		MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&ClientRaceVehicleComponent::o_onPostPhysicsUpdateSync)); MH_EnableHook(target);
+		MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&ClientRaceVehicleComponent::o_onPostPhysicsUpdateSync)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
 	}
 
 	// override fb::ClientRaceVehicleComponent::onFrameInterpolationUpdate
 	{
 		auto f = &ClientRaceVehicleComponent::onFrameInterpolationUpdate;
 		ClientRaceVehicleComponent::t_onFrameInterpolationUpdate target = reinterpret_cast<ClientRaceVehicleComponent::t_onFrameInterpolationUpdate>(0x1408202E0);
-		MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&ClientRaceVehicleComponent::o_onFrameInterpolationUpdate)); MH_EnableHook(target);
+		MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&ClientRaceVehicleComponent::o_onFrameInterpolationUpdate)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
 	}
 
 	// redirect fb::ClientRaceVehicleComponentPrediction::worldTransform vfptr to fb::ClientChassisComponentPrediction::worldTransform

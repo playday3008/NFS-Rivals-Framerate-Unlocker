@@ -12,7 +12,7 @@
 #include <Race/Client/Vehicle/ClientRaceVehicleEntity.h>
 
 #include <../util/memoryutils.h>
-#include "MinHook.h"
+#include <MinHook.h>
 
 
 namespace fb
@@ -139,14 +139,14 @@ void ClientUIScreenEffectEntity::ApplyPatches()
     {
         auto f = &ClientUIScreenEffectEntity::ctor;
         ClientUIScreenEffectEntity::t_ctor target = reinterpret_cast<ClientUIScreenEffectEntity::t_ctor>(0x1409847F0);
-        MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&ClientUIScreenEffectEntity::o_ctor)); MH_EnableHook(target);
+        MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&ClientUIScreenEffectEntity::o_ctor)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
     }
 
     // override fb::ClientUIScreenEffectEntity::onInit
     {
         auto f = &ClientUIScreenEffectEntity::onInit;
         ClientUIScreenEffectEntity::t_onInit target = reinterpret_cast<ClientUIScreenEffectEntity::t_onInit>(0x14098C150);
-        MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&ClientUIScreenEffectEntity::o_onInit)); MH_EnableHook(target);
+        MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&ClientUIScreenEffectEntity::o_onInit)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
     }
 
     // redirect ~fb::SimpleUpdater<fb::ClientUIScreenEffectEntity> vfptr to our patched version

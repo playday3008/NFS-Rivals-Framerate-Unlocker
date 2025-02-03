@@ -13,312 +13,457 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{02822c68-2fc8-492c-90be-8b3891f816a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SafetyHook">
+      <UniqueIdentifier>{4394d71f-4431-4e03-8824-d81c66f0d97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite">
+      <UniqueIdentifier>{ea078acf-62ed-4662-ba8a-afce3407bbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine">
+      <UniqueIdentifier>{d5b5fd73-abb7-43f0-8a8d-c6a8018b50c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Extension">
+      <UniqueIdentifier>{f2cdfc1f-71eb-46bc-ae62-8375be212c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\External">
+      <UniqueIdentifier>{5cf90967-5408-44a8-826c-652093d1124c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race">
+      <UniqueIdentifier>{dd219171-7b02-4a61-9a46-50ab52a5da0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Core">
+      <UniqueIdentifier>{6de933b0-ea93-494b-9a67-9c072b6e646f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Entity">
+      <UniqueIdentifier>{eac531ea-48ef-4c16-a20c-f2ccea7d7fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game">
+      <UniqueIdentifier>{918a0b65-c7c4-45f5-8444-a9f171b84ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Physics">
+      <UniqueIdentifier>{2979fa61-ea3a-48a7-8014-cc45125976e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Core\Math">
+      <UniqueIdentifier>{b240cbb9-0f68-48d7-8c3a-02e6e1f43e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Core\Memory">
+      <UniqueIdentifier>{d426ac1f-4236-4285-b4ce-b74276743c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Core\Pattern">
+      <UniqueIdentifier>{57d46bd2-048c-46df-b2a0-8a3bf252adae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Core\Reflection">
+      <UniqueIdentifier>{0e56e439-34d8-4cc2-a4d7-deb9137b0516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Core\Resource">
+      <UniqueIdentifier>{696cadcb-114d-4cf1-aeb8-6cac6a654946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Core\Math\SSE">
+      <UniqueIdentifier>{fafd4856-d5cc-4444-81fd-979047ae4ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Entity\EntityBus">
+      <UniqueIdentifier>{4e5f095f-492c-4ffd-a9fb-42c15756fab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Entity\Material">
+      <UniqueIdentifier>{8cbec181-5baf-49df-af24-f73926619468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Client">
+      <UniqueIdentifier>{a3692fd6-2c8f-4da3-bff5-65847c9a6efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Common">
+      <UniqueIdentifier>{4f582f94-50ad-49a9-9d22-5c702a94557b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Shared">
+      <UniqueIdentifier>{b25b8dd9-0ba9-4584-9e17-c9436eb10d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Client\Core">
+      <UniqueIdentifier>{7aa23ea8-0d4c-415f-ac7c-69adf923e90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Client\Gameplay">
+      <UniqueIdentifier>{21058068-de9c-43fb-b1d2-370ee2381cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Client\Core\Entity">
+      <UniqueIdentifier>{34129592-7f74-4e4a-9b67-a29156f58500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Client\Gameplay\Character">
+      <UniqueIdentifier>{a19025ce-ed39-41a7-a030-021590c55a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Client\Gameplay\Character\Components">
+      <UniqueIdentifier>{e1703343-05df-4e2a-b83f-c177f0e15667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Common\Core">
+      <UniqueIdentifier>{89c8bfb4-239a-4a4c-a085-0b659395b4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Common\Gameplay">
+      <UniqueIdentifier>{9ad1b3e7-2d37-464d-80e5-dd0c555dc61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Common\Core\Entity">
+      <UniqueIdentifier>{c1b014bc-6823-4927-86d6-939c290c2711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Common\Gameplay\Camera">
+      <UniqueIdentifier>{028f8e6f-9bd1-41ca-be47-d77097675727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Game\Common\Gameplay\Camera\CameraEffects">
+      <UniqueIdentifier>{80c76c68-cc34-4486-b206-57eed8108f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Physics\Vehicle">
+      <UniqueIdentifier>{19185984-66c9-4558-a254-ea33434f65ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Physics\Vehicle\Common">
+      <UniqueIdentifier>{3af7487a-4965-4891-bf8f-eb66ab48e134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Engine\Physics\Vehicle\EAGR">
+      <UniqueIdentifier>{cdbbda42-4234-47f2-9e51-a495b056844f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Extension\Cinebot">
+      <UniqueIdentifier>{e53abf15-b85f-46df-bd0c-09e9c608824a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Extension\Rpc">
+      <UniqueIdentifier>{57c7bd46-8988-45d5-9540-3b87041013f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\External\EA">
+      <UniqueIdentifier>{eea6bbb9-3806-43b7-99c2-70da1fcc2103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\External\EA\EAAudioCore">
+      <UniqueIdentifier>{8e8a8f78-a959-45ec-a9ad-12502afbaac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\External\EA\EAAudioCore\plugins">
+      <UniqueIdentifier>{906bf443-e10b-4123-8bbc-2456b878e5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Client">
+      <UniqueIdentifier>{fa0a46da-6f7b-41f1-9ef1-d3da7a9bc13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Common">
+      <UniqueIdentifier>{ed73e471-6381-45c2-844c-43785781e2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Client\UI">
+      <UniqueIdentifier>{aed8a8b3-12cc-49e2-9760-504bf7071a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Client\Vehicle">
+      <UniqueIdentifier>{3d66da03-47de-48cd-9d68-2f30803ed06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Client\Weapon">
+      <UniqueIdentifier>{30db420d-67d6-4a7c-941a-6bddaaa0b554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Client\UI\Entities">
+      <UniqueIdentifier>{515d524e-2305-4ee0-ad48-2e1c76178a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Client\UI\Entities\Screen">
+      <UniqueIdentifier>{c11c5824-4824-40fe-9659-eeeb1f924505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Client\Vehicle\Components">
+      <UniqueIdentifier>{793ef2de-90e7-41bd-8f64-1e31c38c89b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Common\Core">
+      <UniqueIdentifier>{6e3be2ba-655e-4803-8219-da6b651f1ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Common\Vehicle">
+      <UniqueIdentifier>{94f64ca3-1aa8-470d-8ada-38fd43b17673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Common\Weapon">
+      <UniqueIdentifier>{03abc844-4846-4f77-baf0-a6ba52bfc722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Common\Core\Proxy">
+      <UniqueIdentifier>{e457991d-2437-4040-8344-b8e1c71feb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frostbite\Race\Common\Vehicle\Components">
+      <UniqueIdentifier>{a2f23e7a-aec4-4aba-a8b3-7efc5e8e6d52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="util\memoryutils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Extension\Cinebot\CinebotCamera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Game\Common\Gameplay\Camera\Camera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Math\LinearTransform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Math\Vec3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Math\Quat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Math\Vec4.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Math\Vec.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Game\Shared\WeaponDataDefs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Math\Vec2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Resource\BaseTypesDefs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Game\Common\Gameplay\Camera\TargetCamera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Extension\Cinebot\ICinebotDirector.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Extension\Cinebot\CinebotCameraShot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientAnimatedDriverComponent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Game\Client\Gameplay\Character\Components\ClientAntAnimatableComponent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceLightComponent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Common\Core\Proxy\ProxyPropertyWriter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Types.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Reflection\PropertyWriter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceVehicleComponent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceVehicleComponentSimulation.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Game\Common\Gameplay\Camera\CameraEffects\FovEffect.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\UpdateInfo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\EntityDataDefs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Physics\Vehicle\EAGR\IRaceVehicle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\Component.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\UpdateManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\Updater.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\SimpleUpdaterBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\SimpleUpdater.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Memory\MemoryArena.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Math\Math.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Reflection\PropertyReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Reflection\Reflection.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\UI\Entities\Screen\ClientUIScreenEffectEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\Vehicle\ClientRaceVehicleEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Game\Common\Gameplay\Camera\CameraManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\MiscEntities.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\MiscEntityData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\EntityData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Resource\BaseTypes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Reflection\DataContainer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\EntityBus\EntityBusPeer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\EntityFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\EntityBusDataDefs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponTypeAsset.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Reflection\String.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Entity\Material\MaterialGridData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponEntityData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponEntityDataDefs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Core\Pattern\WeakPtr.h">
-      <Filter>Header Files</Filter>
+      <Filter>Utils</Filter>
     </ClInclude>
     <ClInclude Include="safetyhook\safetyhook.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>SafetyHook</Filter>
     </ClInclude>
-    <ClInclude Include="safetyhook\Zydis.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Types.h">
+      <Filter>Frostbite\Engine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\External\EA\EAAudioCore\include\EAAudioCore\plugins\GinsuPlayer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Math\LinearTransform.h">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\External\EA\EAAudioCore\include\EAAudioCore\base.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Math\Math.h">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\Weapon\ClientVehicleWeaponEntity.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Math\Quat.h">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponUpgradable.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Math\Vec.h">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponType.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Math\Vec2.h">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Extension\Rpc\RpcTypeTraits.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Math\Vec3.h">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Extension\Rpc\RpcDeclaration.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Math\Vec4.h">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Game\Common\Core\Entity\GameComponentEntity.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Memory\MemoryArena.h">
+      <Filter>Frostbite\Engine\Core\Memory</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Game\Client\Core\Entity\ClientGameComponentEntity.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Core\Pattern\WeakPtr.h">
+      <Filter>Frostbite\Engine\Core\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Core\Reflection\DataContainer.h">
+      <Filter>Frostbite\Engine\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Core\Reflection\PropertyReader.h">
+      <Filter>Frostbite\Engine\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Core\Reflection\PropertyWriter.h">
+      <Filter>Frostbite\Engine\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Core\Reflection\Reflection.h">
+      <Filter>Frostbite\Engine\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Core\Reflection\String.h">
+      <Filter>Frostbite\Engine\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Core\Resource\BaseTypes.h">
+      <Filter>Frostbite\Engine\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Core\Resource\BaseTypesDefs.h">
+      <Filter>Frostbite\Engine\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\EntityBus\EntityBusPeer.h">
+      <Filter>Frostbite\Engine\Entity\EntityBus</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\Material\MaterialGridData.h">
+      <Filter>Frostbite\Engine\Entity\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\Component.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
     </ClInclude>
     <ClInclude Include="Frostbite\Engine\Entity\Entity.h">
-      <Filter>Header Files</Filter>
+      <Filter>Frostbite\Engine\Entity</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceWheelComponentSimulation.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Entity\EntityBusDataDefs.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Engine\Physics\Vehicle\EAGR\WheelNFS.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Entity\EntityData.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\EntityDataDefs.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\EntityFactory.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\MiscEntities.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\MiscEntityData.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\SimpleUpdater.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\SimpleUpdaterBase.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\UpdateInfo.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\UpdateManager.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Entity\Updater.h">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Game\Client\Core\Entity\ClientGameComponentEntity.h">
+      <Filter>Frostbite\Engine\Game\Client\Core\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Game\Client\Gameplay\Character\Components\ClientAntAnimatableComponent.h">
+      <Filter>Frostbite\Engine\Game\Client\Gameplay\Character\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Game\Common\Core\Entity\GameComponentEntity.h">
+      <Filter>Frostbite\Engine\Game\Common\Core\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Game\Common\Gameplay\Camera\CameraEffects\FovEffect.h">
+      <Filter>Frostbite\Engine\Game\Common\Gameplay\Camera\CameraEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Game\Common\Gameplay\Camera\Camera.h">
+      <Filter>Frostbite\Engine\Game\Common\Gameplay\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Game\Common\Gameplay\Camera\CameraManager.h">
+      <Filter>Frostbite\Engine\Game\Common\Gameplay\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Game\Common\Gameplay\Camera\TargetCamera.h">
+      <Filter>Frostbite\Engine\Game\Common\Gameplay\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Game\Shared\WeaponDataDefs.h">
+      <Filter>Frostbite\Engine\Game\Shared</Filter>
     </ClInclude>
     <ClInclude Include="Frostbite\Engine\Physics\Vehicle\Common\IWheel.h">
-      <Filter>Header Files</Filter>
+      <Filter>Frostbite\Engine\Physics\Vehicle\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Engine\Physics\Vehicle\EAGR\IRaceVehicle.h">
+      <Filter>Frostbite\Engine\Physics\Vehicle\EAGR</Filter>
     </ClInclude>
     <ClInclude Include="Frostbite\Engine\Physics\Vehicle\EAGR\IRaceWheel.h">
-      <Filter>Header Files</Filter>
+      <Filter>Frostbite\Engine\Physics\Vehicle\EAGR</Filter>
     </ClInclude>
-    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientFxComponent.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Frostbite\Engine\Physics\Vehicle\EAGR\WheelNFS.h">
+      <Filter>Frostbite\Engine\Physics\Vehicle\EAGR</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Extension\Cinebot\CinebotCamera.h">
+      <Filter>Frostbite\Extension\Cinebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Extension\Cinebot\CinebotCameraShot.h">
+      <Filter>Frostbite\Extension\Cinebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Extension\Cinebot\ICinebotDirector.h">
+      <Filter>Frostbite\Extension\Cinebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Extension\Rpc\RpcDeclaration.h">
+      <Filter>Frostbite\Extension\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Extension\Rpc\RpcTypeTraits.h">
+      <Filter>Frostbite\Extension\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\External\EA\EAAudioCore\include\EAAudioCore\base.h">
+      <Filter>Frostbite\External\EA\EAAudioCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\External\EA\EAAudioCore\include\EAAudioCore\plugins\GinsuPlayer.h">
+      <Filter>Frostbite\External\EA\EAAudioCore\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\UI\Entities\Screen\ClientUIScreenEffectEntity.h">
+      <Filter>Frostbite\Race\Client\UI\Entities\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\Vehicle\ClientRaceVehicleEntity.h">
+      <Filter>Frostbite\Race\Client\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientAnimatedDriverComponent.h">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
     </ClInclude>
     <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientAnimationComponent.h">
-      <Filter>Header Files</Filter>
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientFxComponent.h">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceLightComponent.h">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceVehicleComponent.h">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceVehicleComponentSimulation.h">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceWheelComponentSimulation.h">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Client\Weapon\ClientVehicleWeaponEntity.h">
+      <Filter>Frostbite\Race\Client\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Common\Core\Proxy\ProxyPropertyWriter.h">
+      <Filter>Frostbite\Race\Common\Core\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="Frostbite\Race\Common\Vehicle\Components\AnimationComponentData.h">
-      <Filter>Header Files</Filter>
+      <Filter>Frostbite\Race\Common\Vehicle\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponEntityData.h">
+      <Filter>Frostbite\Race\Common\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponEntityDataDefs.h">
+      <Filter>Frostbite\Race\Common\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponType.h">
+      <Filter>Frostbite\Race\Common\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponTypeAsset.h">
+      <Filter>Frostbite\Race\Common\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbite\Race\Common\Weapon\VehicleWeaponUpgradable.h">
+      <Filter>Frostbite\Race\Common\Weapon</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="util\memoryutils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Engine\Core\Math\LinearTransform.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Engine\Core\Math\Vec3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Engine\Core\Math\Vec.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Extension\Cinebot\CinebotCamera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientAnimatedDriverComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceLightComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceVehicleComponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Engine\Entity\UpdateManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Engine\Core\Memory\MemoryArena.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Race\Client\UI\Entities\Screen\ClientUIScreenEffectEntity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Engine\Game\Common\Gameplay\Camera\CameraManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Frostbite\Engine\Entity\MiscEntities.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Utils</Filter>
     </ClCompile>
     <ClCompile Include="safetyhook\safetyhook.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>SafetyHook</Filter>
     </ClCompile>
-    <ClCompile Include="safetyhook\Zydis.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Frostbite\Engine\Core\Math\LinearTransform.cpp">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClCompile>
-    <ClCompile Include="Frostbite\External\EA\EAAudioCore\source\plugins\GinsuPlayer.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Frostbite\Engine\Core\Math\Vec.cpp">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClCompile>
-    <ClCompile Include="Frostbite\Race\Client\Weapon\ClientVehicleWeaponEntity.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Frostbite\Engine\Core\Math\Vec3.cpp">
+      <Filter>Frostbite\Engine\Core\Math</Filter>
     </ClCompile>
-    <ClCompile Include="Frostbite\Race\Common\Core\Proxy\ProxyPropertyWriter.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Frostbite\Engine\Core\Memory\MemoryArena.cpp">
+      <Filter>Frostbite\Engine\Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Engine\Entity\UpdateManager.cpp">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Engine\Entity\MiscEntities.cpp">
+      <Filter>Frostbite\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Engine\Game\Common\Gameplay\Camera\CameraManager.cpp">
+      <Filter>Frostbite\Engine\Game\Common\Gameplay\Camera</Filter>
     </ClCompile>
     <ClCompile Include="Frostbite\Engine\Physics\Vehicle\EAGR\WheelNFS.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Frostbite\Engine\Physics\Vehicle\EAGR</Filter>
     </ClCompile>
-    <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientFxComponent.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Frostbite\Extension\Cinebot\CinebotCamera.cpp">
+      <Filter>Frostbite\Extension\Cinebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\External\EA\EAAudioCore\source\plugins\GinsuPlayer.cpp">
+      <Filter>Frostbite\External\EA\EAAudioCore\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Race\Client\UI\Entities\Screen\ClientUIScreenEffectEntity.cpp">
+      <Filter>Frostbite\Race\Client\UI\Entities\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientAnimatedDriverComponent.cpp">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
     </ClCompile>
     <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientAnimationComponent.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientFxComponent.cpp">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceLightComponent.cpp">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Race\Client\Vehicle\Components\ClientRaceVehicleComponent.cpp">
+      <Filter>Frostbite\Race\Client\Vehicle\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Race\Client\Weapon\ClientVehicleWeaponEntity.cpp">
+      <Filter>Frostbite\Race\Client\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbite\Race\Common\Core\Proxy\ProxyPropertyWriter.cpp">
+      <Filter>Frostbite\Race\Common\Core\Proxy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Frostbite\Engine\Core\Math\SSE\LinearTransform_SSE.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="Frostbite\Engine\Core\Math\SSE\Vec3_SSE.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="Frostbite\Engine\Core\Math\SSE\Vec_SSE.inl">
-      <Filter>Header Files</Filter>
+      <Filter>Frostbite\Engine\Core\Math\SSE</Filter>
     </None>
     <None Include="Frostbite\Engine\Core\Math\SSE\Quat_SSE.inl">
-      <Filter>Header Files</Filter>
+      <Filter>Frostbite\Engine\Core\Math\SSE</Filter>
     </None>
+    <None Include="Frostbite\Engine\Core\Math\SSE\Vec_SSE.inl">
+      <Filter>Frostbite\Engine\Core\Math\SSE</Filter>
+    </None>
+    <None Include="Frostbite\Engine\Core\Math\SSE\Vec3_SSE.inl">
+      <Filter>Frostbite\Engine\Core\Math\SSE</Filter>
+    </None>
+    <None Include="vcpkg.json" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="asm\MiscPatches.asm">

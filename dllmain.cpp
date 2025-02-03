@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+﻿#include <Windows.h>
 
 #include <Extension/Cinebot/CinebotCamera.h>
 #include <Race/Client/Vehicle/Components/ClientAnimatedDriverComponent.h>
@@ -19,7 +19,7 @@
 #include <shellapi.h>
 
 #include "util/memoryutils.h"
-#include "MinHook.h"
+#include <MinHook.h>
 #include <safetyhook.hpp>
 
 

@@ -6,7 +6,7 @@
 #include <Engine/Core/Math/Math.h>
 
 #include "../../../util/memoryutils.h"
-#include "MinHook.h"
+#include <MinHook.h>
 
 
 namespace fb
@@ -145,21 +145,21 @@ void CinebotCamera::ApplyPatches()
     {
         auto f = &CinebotCamera::ctor;
         CinebotCamera::t_ctor target = reinterpret_cast<CinebotCamera::t_ctor>(0x1400EF920);
-        MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&CinebotCamera::o_ctor)); MH_EnableHook(target);
+        MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&CinebotCamera::o_ctor)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
     }
 
     // override fb::CinebotCamera::postFrameUpdate
     {
         auto f = &CinebotCamera::postFrameUpdate;
         CinebotCamera::t_postFrameUpdate target = reinterpret_cast<CinebotCamera::t_postFrameUpdate>(0x1400F7D30);
-        MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&CinebotCamera::o_postFrameUpdate)); MH_EnableHook(target);
+        MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&CinebotCamera::o_postFrameUpdate)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
     }
 
     // override fb::CinebotCamera::commitShot
     {
         auto f = &CinebotCamera::commitShot;
         CinebotCamera::t_commitShot target = reinterpret_cast<CinebotCamera::t_commitShot>(0x1400F47F0);
-        MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&CinebotCamera::o_commitShot)); MH_EnableHook(target);
+        MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&CinebotCamera::o_commitShot)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
     }
 }
 

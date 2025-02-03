@@ -9,7 +9,7 @@
 #include <Engine/Core/Memory/MemoryArena.h>
 
 #include <../util/memoryutils.h>
-#include "MinHook.h"
+#include <MinHook.h>
 
 
 namespace
@@ -223,28 +223,28 @@ void TransformMultiplierEntity::ApplyPatches()
 	{
 		auto f = &TransformMultiplierEntity::EntityCreator_create_Client;
 		TransformMultiplierEntity::t_EntityCreator_create_Client target = reinterpret_cast<TransformMultiplierEntity::t_EntityCreator_create_Client>(0x1402181B0);
-		MH_CreateHook(target, reinterpret_cast<LPVOID>(f), reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_EntityCreator_create_Client)); MH_EnableHook(target);
+		MH_CreateHook(reinterpret_cast<LPVOID>(target), reinterpret_cast<LPVOID>(f), reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_EntityCreator_create_Client)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
 	}
 
 	// override fb::TransformMultiplierEntity Server EntityCreator
 	{
 		auto f = &TransformMultiplierEntity::EntityCreator_create_Server;
 		TransformMultiplierEntity::t_EntityCreator_create_Server target = reinterpret_cast<TransformMultiplierEntity::t_EntityCreator_create_Server>(0x140218110);
-		MH_CreateHook(target, reinterpret_cast<LPVOID>(f), reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_EntityCreator_create_Server)); MH_EnableHook(target);
+		MH_CreateHook(reinterpret_cast<LPVOID>(target), reinterpret_cast<LPVOID>(f), reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_EntityCreator_create_Server)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
 	}
 
 	// override fb::TransformMultiplierEntity::onCreate
 	{
 		auto f = &TransformMultiplierEntity::onCreate;
 		TransformMultiplierEntity::t_onCreate target = reinterpret_cast<TransformMultiplierEntity::t_onCreate>(0x140221200);
-		MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_onCreate)); MH_EnableHook(target);
+		MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_onCreate)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
 	}
 
 	// override fb::TransformMultiplierEntity::onInit
 	{
 		auto f = &TransformMultiplierEntity::onInit;
 		TransformMultiplierEntity::t_onInit target = reinterpret_cast<TransformMultiplierEntity::t_onInit>(0x1402233F0);
-		MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_onInit)); MH_EnableHook(target);
+		MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_onInit)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
 	}
 
 	// redirect fb::TransformMultiplierEntity::onDeinit vfptr to our patched version
@@ -259,7 +259,7 @@ void TransformMultiplierEntity::ApplyPatches()
 	{
 		auto f = &TransformMultiplierEntity::writeOut;
 		TransformMultiplierEntity::t_writeOut target = reinterpret_cast<TransformMultiplierEntity::t_writeOut>(0x140229F90);
-		MH_CreateHook(target, *(void**)&f, reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_writeOut)); MH_EnableHook(target);
+		MH_CreateHook(reinterpret_cast<LPVOID>(target), *(void**)&f, reinterpret_cast<LPVOID*>(&TransformMultiplierEntity::o_writeOut)); MH_EnableHook(reinterpret_cast<LPVOID>(target));
 	}
 }
 
